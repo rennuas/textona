@@ -190,6 +190,85 @@ footer .nav .nav-link:hover {
   color: #FFBB0C;
 }
 
+.section-product .btn-search {
+  background-color: #FFBB0C;
+  color: #000;
+  font-weight: bold;
+}
+
+.section-product .btn-search:hover {
+  background-color: #FCCA49;
+  color: #000;
+}
+
+.section-product h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.section-product h5 {
+  font-weight: bold;
+}
+
+.section-product a {
+  text-decoration: none;
+  color: #000;
+}
+
+.section-product a:hover {
+  color: #555;
+}
+
+.section-product .product-image {
+  background-color: #aaa;
+  background-size: cover;
+  background-position: center;
+  height: 269px;
+  width: 100%;
+}
+
+.section-product .btn-product-details {
+  background-color: #FFBB0C;
+  color: #000;
+  font-weight: bold;
+}
+
+.section-product .btn-product-details:hover {
+  background-color: #FCCA49;
+  color: #000;
+}
+
+.section-product-details {
+  margin-top: 50px;
+}
+
+.section-product-details .info-product h2 {
+  font-weight: bold;
+}
+
+.section-product-details .info-product .btn-checkout {
+  display: block;
+  background-color: #FFBB0C;
+  color: #000;
+  font-weight: bold;
+}
+
+.section-product-details .info-product .btn-checkout:hover {
+  background-color: #FCCA49;
+}
+
+.btn.btn-load-more {
+  margin: 55px 0 0;
+  background-color: #fff;
+  border: 3px solid #000;
+  font-weight: bold;
+}
+
+.btn.btn-load-more:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 @media only screen and (max-width: 600px) {
   .section-business-rect {
     background-color: #FFBB0C;

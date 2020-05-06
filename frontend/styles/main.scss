@@ -209,6 +209,90 @@ footer {
     }
 }
 
+.section-product {
+
+    .btn-search {
+        background-color: $color;
+        color: #000;
+        font-weight: bold;
+
+        &:hover {
+            background-color: $color-hover;
+            color: #000;
+        }
+    }
+
+    h3 {
+        font-family: $second-font;
+        font-weight: bold;
+    }
+
+    h5 {
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+
+        &:hover {
+            color: #555;
+        }
+    }
+
+    .product-image {
+        background-color: #aaa;
+        background-size: cover;
+        background-position: center;
+        height: 269px;
+        width: 100%;
+    }
+
+    .btn-product-details {
+        background-color: $color;
+        color: #000;
+        font-weight: bold;
+
+        &:hover {
+            background-color: $color-hover;
+            color: #000;
+        }
+    }
+}
+
+.section-product-details {
+    margin-top: 50px;
+
+    .info-product {
+        h2 {
+            font-weight: bold;
+        }
+
+        .btn-checkout {
+            display: block;
+            background-color: $color;
+            color: #000;
+            font-weight: bold;
+
+            &:hover {
+                background-color: $color-hover;
+            }
+        }
+    }
+}
+
+.btn.btn-load-more {
+    margin: 55px 0 0;
+    background-color: #fff;
+    border: 3px solid #000;
+    font-weight: bold;
+
+    &:hover {
+        background-color: #000;
+        color: #fff;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .section-business-rect {
         background-color: $color;
