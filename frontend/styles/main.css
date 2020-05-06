@@ -1,0 +1,209 @@
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-dark {
+  background-color: #000;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: 'Playfair Display', serif !important;
+  font-weight: bold;
+  color: #FFBB0C;
+}
+
+.navbar-dark .navbar-collapse .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-collapse .nav-link.active {
+  color: #FFBB0C;
+  font-weight: bold;
+}
+
+header {
+  margin-top: 50px;
+  padding: 180px 0 165px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+header h1,
+header p {
+  color: #fff;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+header p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #eee;
+}
+
+header .btn-lihat-bisnis {
+  margin-top: 50px;
+  background-color: #FFBB0C;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+header .btn-lihat-bisnis:hover {
+  background-color: #FCCA49;
+}
+
+.section-about {
+  margin-top: 75px;
+}
+
+.section-about h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-about p {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.section-about img {
+  width: 640px;
+  height: 400px;
+  align: center;
+}
+
+.section-business-rect {
+  background-color: #FFBB0C;
+  height: 350px;
+  margin-top: 325px;
+}
+
+.section-business {
+  margin-top: -600px;
+}
+
+.section-business h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.section-business .card-business h4 {
+  font-weight: bold;
+}
+
+.section-business .card-business .card-business-image {
+  background-color: #bbb;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+}
+
+.section-business .card-business .btn-business-detail {
+  background-color: #fff;
+  color: #000;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.section-business .card-business .btn-business-detail:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.section-testimonial {
+  margin-top: 135px;
+}
+
+.section-testimonial h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-testimonial .card-testimonial {
+  padding: 35px 20px;
+}
+
+.section-testimonial .card-testimonial h4 {
+  font-weight: bold;
+}
+
+.section-social-media {
+  margin-top: 75px;
+}
+
+.section-social-media h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.section-social-media .btn-social-media {
+  border: 2px solid #FFBB0C;
+  background-color: #fff;
+  color: #FFBB0C;
+  font-weight: bold;
+  font-size: 22px;
+  margin: 5px 5px;
+}
+
+.section-social-media .btn-social-media:hover {
+  border: 2px solid #FFBB0C;
+  background-color: #FFBB0C;
+  color: #fff;
+}
+
+footer {
+  margin-top: 85px;
+  background-color: #000;
+  color: #fff;
+  padding: 80px !important;
+}
+
+footer h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #FFBB0C;
+  margin-bottom: 15px;
+}
+
+footer .nav .nav-link {
+  color: #fff;
+}
+
+footer .nav .nav-link:hover {
+  color: #FFBB0C;
+}
+
+@media only screen and (max-width: 600px) {
+  .section-business-rect {
+    background-color: #FFBB0C;
+    height: 1800px;
+    margin-top: 300px;
+  }
+  .section-business {
+    margin-top: -2000px;
+  }
+  footer .nav-link {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+}
+/*# sourceMappingURL=main.css.map */

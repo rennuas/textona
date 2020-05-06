@@ -1,0 +1,228 @@
+$primary-font: 'Assistant',
+sans-serif;
+$second-font: 'Playfair Display',
+serif;
+
+$color: #FFBB0C;
+$color-hover: #FCCA49;
+
+body {
+    background-color: #fff;
+    font-family: 'Assistant', sans-serif;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-dark {
+    background-color: #000;
+
+    .navbar-brand {
+        font-family: 'Playfair Display', serif !important;
+        font-weight: bold;
+        color: $color;
+
+    }
+
+    .navbar-collapse {
+        .nav-link {
+            color: #fff;
+
+            &.active {
+                color: $color;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+header {
+    margin-top: 50px;
+    padding: 180px 0 165px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-position: center;
+
+    h1,
+    p {
+        color: #fff;
+    }
+
+    h1 {
+        font-family: $second-font;
+        font-weight: bold;
+        font-size: 48px;
+    }
+
+    p {
+        margin-top: 20px;
+        font-size: 20px;
+        color: #eee;
+    }
+
+    .btn-lihat-bisnis {
+        margin-top: 50px;
+        background-color: $color;
+        font-weight: bold;
+        margin-bottom: 0;
+
+        &:hover {
+            background-color: $color-hover;
+        }
+    }
+}
+
+.section-about {
+    margin-top: 75px;
+
+    h2 {
+        font-family: $second-font;
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    p {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    img {
+        width: 640px;
+        height: 400px;
+        align: center;
+    }
+}
+
+.section-business-rect {
+    background-color: $color;
+    height: 350px;
+    margin-top: 325px;
+}
+
+.section-business {
+    margin-top: -600px;
+
+    h2 {
+        font-family: $second-font;
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .card-business {
+
+        h4 {
+            font-weight: bold;
+        }
+
+        .card-business-image {
+            background-color: #bbb;
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            width: 100%;
+        }
+
+        .btn-business-detail {
+            background-color: #fff;
+            color: #000;
+            font-weight: bold;
+            margin-top: 25px;
+            margin-bottom: 25px;
+
+            &:hover {
+                background-color: #ddd;
+                color: #000;
+            }
+        }
+    }
+}
+
+.section-testimonial {
+
+    margin-top: 135px;
+
+    h2 {
+        font-family: $second-font;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .card-testimonial {
+        padding: 35px 20px;
+
+        h4 {
+            font-weight: bold;
+        }
+
+    }
+}
+
+.section-social-media {
+    margin-top: 75px;
+
+    h2 {
+        font-family: $second-font;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 35px;
+    }
+
+    .btn-social-media {
+        border: 2px solid $color;
+        background-color: #fff;
+        color: $color;
+        font-weight: bold;
+        font-size: 22px;
+        margin: 5px 5px;
+        // transition: 0.5 all ease-in-out;
+
+        &:hover {
+            border: 2px solid $color;
+            background-color: $color;
+            color: #fff;
+        }
+    }
+}
+
+footer {
+    margin-top: 85px;
+    background-color: #000;
+    color: #fff;
+    padding: 80px !important;
+
+    h3 {
+        font-family: $second-font;
+        font-weight: bold;
+        color: $color;
+        margin-bottom: 15px;
+    }
+
+    .nav {
+        .nav-link {
+            color: #fff;
+
+            &:hover {
+                color: $color;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section-business-rect {
+        background-color: $color;
+        height: 1800px;
+        margin-top: 300px;
+    }
+
+    .section-business {
+        margin-top: -2000px;
+    }
+
+    footer {
+        .nav-link {
+            flex-flow: column;
+        }
+    }
+}
